@@ -1,6 +1,11 @@
 # heylisten
 an alternative to `poweralertd`
 
+note that this isn't a full `poweralertd` replacement, mainly due to the lack
+of certain notifications, for example the ones that inform you about the power
+supply being online/offline. I did not include these because I consider them unnecessary,
+and also because I'm too lazy to implement them.
+
 ## why not poweralertd?
 I made this purely for myself because `poweralertd` was sending
 7 notifications for the one event, and also because I was bored.
